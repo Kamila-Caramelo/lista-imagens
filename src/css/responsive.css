@@ -1,0 +1,13 @@
+
+@media(max-width: 425px){
+    body{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .lista-imagem{
+        display: block;
+        margin-top: 45px;
+    }
+
+}

@@ -1,0 +1,42 @@
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Public Sans', sans-serif;
+    color: #FFFFFF;  
+  }
+
+.lista-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+}
+
+.imagem h1{
+    font-size: 25px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 20px;
+}
+
+.imagem p{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 20px;
+} 
